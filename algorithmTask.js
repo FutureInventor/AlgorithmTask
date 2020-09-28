@@ -27,13 +27,6 @@ const B = [2, 1, 3, 4, 3, 10, 6, 6, 1, 7, 10, 10, 10];
 
 console.log(func(A, B));  // -> [ 2, 9, 2, 5, 7, 10]
 
-    // JavaScript's objects are actually
-    // hashes so the time complexity of
-    // inserting new elements, deleting them or
-    // searching for them is O(1). The time complexity
-    // of iterating over the array is O(n) and
-    // the approach used in function 'isPrime'
-    // gives us the time complexity O(sqrt(k))
     // n = size of A
     // m = size of B
     // k = size of the number to be squared
